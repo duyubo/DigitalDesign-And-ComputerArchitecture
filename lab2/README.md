@@ -13,5 +13,5 @@
 * 4:1 Multiplexer is included in [cources_1/new/FullAdder.v](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/multiplexer4_1.v)
 ![4:1 Mulplexer](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/images/MUX4_1.png)
 
-The whole project is included in [cources_1/new/calculator.v](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/calculator.v)
+* The whole project is included in [cources_1/new/calculator.v](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/calculator.v)
 
