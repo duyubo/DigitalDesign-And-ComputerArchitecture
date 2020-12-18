@@ -1,6 +1,5 @@
 # Lab2: Mapping Your Circuit to FPGA
-* Full adder is included in [cources_1/new/FullAdder.v] <img src="https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/FullAdder.v)
-![Full Adder](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/images/FullAdder.png" width="200" height="200" />
+* Full adder is included in [cources_1/new/FullAdder.v](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/FullAdder.v) <img src="https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/images/FullAdder.png" width="200" height="200" />
 
 * Four Bit Adder is included in [cources_1/new/FourBitAdder.v](https://github.com/duyubo/DigitalDesign-computerArchitecture/blob/main/lab2/sources_1/new/FourBitAdder.v)
 
