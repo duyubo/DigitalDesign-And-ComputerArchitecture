@@ -22,14 +22,13 @@
 
 module LightSimu(input clk, 
            input reset,
-           input [1:0] lr,
+           input l,
+           input r,
            output [5:0] light);
-    wire n_clk;
-    clk_div( .clk(clk), .rst(reset),  .clk_en(n_clk));
-
-    FSM(.clk(n_clk), .reset(reset), .lr(lr), .light(light));
-
     
-
-
+    wire n_clk;
+    clk_div( .clk(clk), .rst(reset),  .clk_en(n_clk));       
+    FSM f1 (.clk(n_clk), .reset(reset), .lr(l), .light(light[2:0]));
+    FSM f2 (.clk(n_clk), .reset(reset), .lr(r), .light(light[5:3]));
+ 
 endmodule

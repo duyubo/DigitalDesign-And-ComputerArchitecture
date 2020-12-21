@@ -22,10 +22,10 @@
 
 module FSM(input clk, 
            input reset,
-           input [1:0] lr,
-           output [5:0] light);
+           input  lr,
+           output [2:0] light);
 
-   reg  [1:0] state, nextstate;
+   reg  [2:0] state, nextstate;
    
    parameter S0 = 3'b000;
    parameter S1 = 3'b001;
@@ -34,12 +34,15 @@ module FSM(input clk,
 
    // state register
    
+  
    always @ (posedge clk, posedge reset)
       if (reset) state <= S0;
-      else      state <= nextstate;   
+      else      state <= nextstate;
+   
+         
    always @ (*) // next state logic
       case (state)
-         S0: if (lr[0] == 1)
+         S0: if (lr == 1)
                   nextstate = S1;
              else nextstate = S0; 
          S1: 
@@ -49,6 +52,6 @@ module FSM(input clk,
          default: nextstate = S0;
       endcase
 
-    assign light[3:0] = state;
+    assign light = state;
 
 endmodule 
