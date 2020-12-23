@@ -6,7 +6,7 @@ This repository contains the lab assignments of [Digital Designa & Computer Arch
 * [Lab2: Mapping Your Circuit to FPGA](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab2)
 * [Lab3: Verilog for Combinatorial Circuits](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab3)
 * [Lab4: Finite State Machines](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab4)
-* Lab5: Implementing an ALU (Todo)
+* [Lab5: Implementing an ALU](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab5)
 * Lab6: Testing the ALU (Todo)
 * Lab7: Writing Assembly Code (Todo)
 * Lab8: Full System Integration (Part I and Part II) (Todo)
