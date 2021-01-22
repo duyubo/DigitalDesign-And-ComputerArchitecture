@@ -7,7 +7,7 @@ This repository contains the lab assignments of [Digital Designa & Computer Arch
 * [Lab3: Verilog for Combinatorial Circuits](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab3)
 * [Lab4: Finite State Machines](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab4)
 * [Lab5: Implementing an ALU](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab5)
-* Lab6: Testing the ALU (Todo)
+* [Lab6: Testing the ALU](https://github.com/duyubo/DigitalDesign-computerArchitecture/tree/main/lab6)
 * Lab7: Writing Assembly Code (Todo)
 * Lab8: Full System Integration (Part I and Part II) (Todo)
 * Lab9: The Performance of MIPS (Todo)
